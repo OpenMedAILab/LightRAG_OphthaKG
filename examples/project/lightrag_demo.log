@@ -1,0 +1,198 @@
+2026-01-07 13:21:53,193 - lightrag - INFO - [_] Created new empty graph fiel: ./OphthaKG/graph_chunk_entity_relation.graphml
+2026-01-07 13:21:53,193 - lightrag - WARNING - Rerank is enabled but no rerank_model_func provided. Reranking will be skipped.
+2026-01-07 13:21:53,193 - lightrag - INFO - [_] Process 20083 KV load full_docs with 0 records
+2026-01-07 13:21:53,193 - lightrag - INFO - [_] Process 20083 KV load text_chunks with 0 records
+2026-01-07 13:21:53,193 - lightrag - INFO - [_] Process 20083 KV load full_entities with 0 records
+2026-01-07 13:21:53,193 - lightrag - INFO - [_] Process 20083 KV load full_relations with 0 records
+2026-01-07 13:21:53,194 - lightrag - INFO - [_] Process 20083 KV load llm_response_cache with 0 records
+2026-01-07 13:21:53,194 - lightrag - INFO - [_] Process 20083 doc status load doc_status with 0 records
+2026-01-07 13:21:53,194 - lightrag - INFO - limit_async: 8 new workers initialized
+2026-01-07 13:21:54,515 - lightrag - INFO - Successfully finalized 10 storages
+2026-01-07 13:48:02,602 - lightrag - INFO - [_] Created new empty graph fiel: ./OphthaKG/graph_chunk_entity_relation.graphml
+2026-01-07 13:48:02,603 - lightrag - WARNING - Rerank is enabled but no rerank_model_func provided. Reranking will be skipped.
+2026-01-07 13:48:02,603 - lightrag - INFO - [_] Process 20471 KV load full_docs with 0 records
+2026-01-07 13:48:02,603 - lightrag - INFO - [_] Process 20471 KV load text_chunks with 0 records
+2026-01-07 13:48:02,603 - lightrag - INFO - [_] Process 20471 KV load full_entities with 0 records
+2026-01-07 13:48:02,603 - lightrag - INFO - [_] Process 20471 KV load full_relations with 0 records
+2026-01-07 13:48:02,603 - lightrag - INFO - [_] Process 20471 KV load llm_response_cache with 0 records
+2026-01-07 13:48:02,603 - lightrag - INFO - [_] Process 20471 doc status load doc_status with 0 records
+2026-01-07 13:48:02,603 - lightrag - INFO - limit_async: 8 new workers initialized
+2026-01-07 13:48:03,788 - lightrag - INFO - Successfully finalized 10 storages
+2026-01-07 13:49:10,293 - lightrag - INFO - [_] Created new empty graph fiel: ./OphthaKG/graph_chunk_entity_relation.graphml
+2026-01-07 13:49:10,293 - lightrag - WARNING - Rerank is enabled but no rerank_model_func provided. Reranking will be skipped.
+2026-01-07 13:49:10,293 - lightrag - INFO - [_] Process 20484 KV load full_docs with 0 records
+2026-01-07 13:49:10,293 - lightrag - INFO - [_] Process 20484 KV load text_chunks with 0 records
+2026-01-07 13:49:10,293 - lightrag - INFO - [_] Process 20484 KV load full_entities with 0 records
+2026-01-07 13:49:10,293 - lightrag - INFO - [_] Process 20484 KV load full_relations with 0 records
+2026-01-07 13:49:10,294 - lightrag - INFO - [_] Process 20484 KV load llm_response_cache with 0 records
+2026-01-07 13:49:10,294 - lightrag - INFO - [_] Process 20484 doc status load doc_status with 0 records
+2026-01-07 13:49:10,294 - lightrag - INFO - limit_async: 8 new workers initialized
+2026-01-07 13:49:11,422 - lightrag - INFO - Processing 1 document(s)
+2026-01-07 13:49:11,422 - lightrag - INFO - Extracting stage 1/1: /Volumes/disk/Everything/100工作/130实习/coding/LightRAG/test_markdown/Primary Angle-Closure Disease PPP.md
+2026-01-07 13:49:11,422 - lightrag - INFO - Processing d-id: Primary Angle-Closure Disease PPP
+2026-01-07 13:49:11,425 - lightrag - ERROR - Traceback (most recent call last):
+  File "/Volumes/disk/Everything/100工作/130实习/coding/LightRAG/lightrag/lightrag.py", line 1487, in process_document
+    for dp in self.chunking_func(
+              ^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/disk/Everything/100工作/130实习/coding/LightRAG/lightrag/operate.py", line 135, in chunking_by_token_size
+    from langchain.text_splitter import RecursiveCharacterTextSplitter
+ModuleNotFoundError: No module named 'langchain'
+
+2026-01-07 13:49:11,425 - lightrag - ERROR - Failed to extract document 1/1: /Volumes/disk/Everything/100工作/130实习/coding/LightRAG/test_markdown/Primary Angle-Closure Disease PPP.md
+2026-01-07 13:49:11,426 - lightrag - INFO - Enqueued document processing pipeline stoped
+2026-01-07 13:49:11,426 - lightrag - INFO - Successfully finalized 10 storages
+2026-01-07 14:10:44,142 - lightrag - INFO - [_] Created new empty graph fiel: ./OphthaKG/graph_chunk_entity_relation.graphml
+2026-01-07 14:10:44,143 - lightrag - WARNING - Rerank is enabled but no rerank_model_func provided. Reranking will be skipped.
+2026-01-07 14:10:44,144 - lightrag - INFO - [_] Process 20895 KV load full_docs with 1 records
+2026-01-07 14:10:44,144 - lightrag - INFO - [_] Process 20895 KV load text_chunks with 0 records
+2026-01-07 14:10:44,144 - lightrag - INFO - [_] Process 20895 KV load full_entities with 0 records
+2026-01-07 14:10:44,144 - lightrag - INFO - [_] Process 20895 KV load full_relations with 0 records
+2026-01-07 14:10:44,144 - lightrag - INFO - [_] Process 20895 KV load llm_response_cache with 0 records
+2026-01-07 14:10:44,146 - lightrag - INFO - [_] Process 20895 doc status load doc_status with 1 records
+2026-01-07 14:10:44,146 - lightrag - INFO - limit_async: 8 new workers initialized
+2026-01-07 14:10:45,469 - lightrag - WARNING - Ignoring document ID (already exists): Primary Angle-Closure Disease PPP (/Volumes/disk/Everything/100工作/130实习/coding/LightRAG/test_markdown/Primary Angle-Closure Disease PPP.md)
+2026-01-07 14:10:45,469 - lightrag - WARNING - No new unique documents were found.
+2026-01-07 14:10:45,470 - lightrag - INFO - Processing 1 document(s)
+2026-01-07 14:10:45,470 - lightrag - INFO - Extracting stage 1/1: /Volumes/disk/Everything/100工作/130实习/coding/LightRAG/test_markdown/Primary Angle-Closure Disease PPP.md
+2026-01-07 14:10:45,470 - lightrag - INFO - Processing d-id: Primary Angle-Closure Disease PPP
+2026-01-07 14:10:45,474 - lightrag - ERROR - Traceback (most recent call last):
+  File "/Volumes/disk/Everything/100工作/130实习/coding/LightRAG/lightrag/lightrag.py", line 1487, in process_document
+    for dp in self.chunking_func(
+              ^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/disk/Everything/100工作/130实习/coding/LightRAG/lightrag/operate.py", line 135, in chunking_by_token_size
+    from langchain.text_splitter import RecursiveCharacterTextSplitter
+ModuleNotFoundError: No module named 'langchain.text_splitter'
+
+2026-01-07 14:10:45,474 - lightrag - ERROR - Failed to extract document 1/1: /Volumes/disk/Everything/100工作/130实习/coding/LightRAG/test_markdown/Primary Angle-Closure Disease PPP.md
+2026-01-07 14:10:45,474 - lightrag - INFO - Enqueued document processing pipeline stoped
+2026-01-07 14:10:45,474 - lightrag - INFO - Successfully finalized 10 storages
+2026-01-07 14:11:43,655 - lightrag - INFO - [_] Created new empty graph fiel: ./OphthaKG/graph_chunk_entity_relation.graphml
+2026-01-07 14:11:43,655 - lightrag - WARNING - Rerank is enabled but no rerank_model_func provided. Reranking will be skipped.
+2026-01-07 14:11:43,657 - lightrag - INFO - [_] Process 20993 KV load full_docs with 1 records
+2026-01-07 14:11:43,657 - lightrag - INFO - [_] Process 20993 KV load text_chunks with 0 records
+2026-01-07 14:11:43,657 - lightrag - INFO - [_] Process 20993 KV load full_entities with 0 records
+2026-01-07 14:11:43,657 - lightrag - INFO - [_] Process 20993 KV load full_relations with 0 records
+2026-01-07 14:11:43,657 - lightrag - INFO - [_] Process 20993 KV load llm_response_cache with 0 records
+2026-01-07 14:11:43,658 - lightrag - INFO - [_] Process 20993 doc status load doc_status with 1 records
+2026-01-07 14:11:43,658 - lightrag - INFO - limit_async: 8 new workers initialized
+2026-01-07 14:11:44,771 - lightrag - WARNING - Ignoring document ID (already exists): Primary Angle-Closure Disease PPP (/Volumes/disk/Everything/100工作/130实习/coding/LightRAG/test_markdown/Primary Angle-Closure Disease PPP.md)
+2026-01-07 14:11:44,771 - lightrag - WARNING - No new unique documents were found.
+2026-01-07 14:11:44,772 - lightrag - INFO - Processing 1 document(s)
+2026-01-07 14:11:44,772 - lightrag - INFO - Extracting stage 1/1: /Volumes/disk/Everything/100工作/130实习/coding/LightRAG/test_markdown/Primary Angle-Closure Disease PPP.md
+2026-01-07 14:11:44,772 - lightrag - INFO - Processing d-id: Primary Angle-Closure Disease PPP
+2026-01-07 14:11:44,775 - lightrag - ERROR - Traceback (most recent call last):
+  File "/Volumes/disk/Everything/100工作/130实习/coding/LightRAG/lightrag/lightrag.py", line 1487, in process_document
+    for dp in self.chunking_func(
+              ^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/disk/Everything/100工作/130实习/coding/LightRAG/lightrag/operate.py", line 135, in chunking_by_token_size
+    from langchain.text_splitter import RecursiveCharacterTextSplitter
+ModuleNotFoundError: No module named 'langchain.text_splitter'
+
+2026-01-07 14:11:44,776 - lightrag - ERROR - Failed to extract document 1/1: /Volumes/disk/Everything/100工作/130实习/coding/LightRAG/test_markdown/Primary Angle-Closure Disease PPP.md
+2026-01-07 14:11:44,776 - lightrag - INFO - Enqueued document processing pipeline stoped
+2026-01-07 14:11:44,776 - lightrag - INFO - Successfully finalized 10 storages
+2026-01-07 14:12:04,246 - lightrag - INFO - [_] Created new empty graph fiel: ./OphthaKG/graph_chunk_entity_relation.graphml
+2026-01-07 14:12:04,246 - lightrag - WARNING - Rerank is enabled but no rerank_model_func provided. Reranking will be skipped.
+2026-01-07 14:12:04,247 - lightrag - INFO - [_] Process 21040 KV load full_docs with 1 records
+2026-01-07 14:12:04,247 - lightrag - INFO - [_] Process 21040 KV load text_chunks with 0 records
+2026-01-07 14:12:04,247 - lightrag - INFO - [_] Process 21040 KV load full_entities with 0 records
+2026-01-07 14:12:04,247 - lightrag - INFO - [_] Process 21040 KV load full_relations with 0 records
+2026-01-07 14:12:04,247 - lightrag - INFO - [_] Process 21040 KV load llm_response_cache with 0 records
+2026-01-07 14:12:04,248 - lightrag - INFO - [_] Process 21040 doc status load doc_status with 1 records
+2026-01-07 14:12:04,248 - lightrag - INFO - limit_async: 8 new workers initialized
+2026-01-07 14:12:05,316 - lightrag - WARNING - Ignoring document ID (already exists): Primary Angle-Closure Disease PPP (/Volumes/disk/Everything/100工作/130实习/coding/LightRAG/test_markdown/Primary Angle-Closure Disease PPP.md)
+2026-01-07 14:12:05,316 - lightrag - WARNING - No new unique documents were found.
+2026-01-07 14:12:05,317 - lightrag - INFO - Processing 1 document(s)
+2026-01-07 14:12:05,317 - lightrag - INFO - Extracting stage 1/1: /Volumes/disk/Everything/100工作/130实习/coding/LightRAG/test_markdown/Primary Angle-Closure Disease PPP.md
+2026-01-07 14:12:05,317 - lightrag - INFO - Processing d-id: Primary Angle-Closure Disease PPP
+2026-01-07 14:12:05,321 - lightrag - ERROR - Traceback (most recent call last):
+  File "/Volumes/disk/Everything/100工作/130实习/coding/LightRAG/lightrag/lightrag.py", line 1487, in process_document
+    for dp in self.chunking_func(
+              ^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/disk/Everything/100工作/130实习/coding/LightRAG/lightrag/operate.py", line 135, in chunking_by_token_size
+    from langchain.text_splitter import RecursiveCharacterTextSplitter
+ModuleNotFoundError: No module named 'langchain.text_splitter'
+
+2026-01-07 14:12:05,321 - lightrag - ERROR - Failed to extract document 1/1: /Volumes/disk/Everything/100工作/130实习/coding/LightRAG/test_markdown/Primary Angle-Closure Disease PPP.md
+2026-01-07 14:12:05,321 - lightrag - INFO - Enqueued document processing pipeline stoped
+2026-01-07 14:12:05,321 - lightrag - INFO - Successfully finalized 10 storages
+2026-01-07 14:26:58,320 - lightrag - INFO - [_] Created new empty graph fiel: ./OphthaKG/graph_chunk_entity_relation.graphml
+2026-01-07 14:26:58,321 - lightrag - WARNING - Rerank is enabled but no rerank_model_func provided. Reranking will be skipped.
+2026-01-07 14:26:58,323 - lightrag - INFO - [_] Process 22280 KV load full_docs with 1 records
+2026-01-07 14:26:58,323 - lightrag - INFO - [_] Process 22280 KV load text_chunks with 0 records
+2026-01-07 14:26:58,323 - lightrag - INFO - [_] Process 22280 KV load full_entities with 0 records
+2026-01-07 14:26:58,323 - lightrag - INFO - [_] Process 22280 KV load full_relations with 0 records
+2026-01-07 14:26:58,323 - lightrag - INFO - [_] Process 22280 KV load llm_response_cache with 0 records
+2026-01-07 14:26:58,323 - lightrag - INFO - [_] Process 22280 doc status load doc_status with 1 records
+2026-01-07 14:26:58,324 - lightrag - INFO - limit_async: 8 new workers initialized
+2026-01-07 14:26:59,747 - lightrag - WARNING - Ignoring document ID (already exists): Primary Angle-Closure Disease PPP (/Volumes/disk/Everything/100工作/130实习/coding/LightRAG/test_markdown/Primary Angle-Closure Disease PPP.md)
+2026-01-07 14:26:59,747 - lightrag - WARNING - No new unique documents were found.
+2026-01-07 14:26:59,747 - lightrag - INFO - Processing 1 document(s)
+2026-01-07 14:26:59,747 - lightrag - INFO - Extracting stage 1/1: /Volumes/disk/Everything/100工作/130实习/coding/LightRAG/test_markdown/Primary Angle-Closure Disease PPP.md
+2026-01-07 14:26:59,747 - lightrag - INFO - Processing d-id: Primary Angle-Closure Disease PPP
+2026-01-07 14:27:03,330 - lightrag - INFO - limit_async: 4 new workers initialized
+2026-01-07 14:27:16,162 - lightrag - INFO - Chunk 1 of 17 extracted 14 Ent + 12 Rel
+2026-01-07 14:27:16,889 - lightrag - INFO - Chunk 2 of 17 extracted 12 Ent + 11 Rel
+2026-01-07 14:27:18,925 - lightrag - INFO - Chunk 3 of 17 extracted 17 Ent + 15 Rel
+2026-01-07 14:27:21,072 - lightrag - INFO - Chunk 4 of 17 extracted 16 Ent + 17 Rel
+2026-01-07 14:27:28,544 - lightrag - INFO - Chunk 5 of 17 extracted 10 Ent + 9 Rel
+2026-01-07 14:27:30,396 - lightrag - INFO - Chunk 6 of 17 extracted 12 Ent + 12 Rel
+2026-01-07 14:27:36,233 - lightrag - INFO - Chunk 7 of 17 extracted 22 Ent + 19 Rel
+2026-01-07 14:27:37,252 - lightrag - INFO - Chunk 8 of 17 extracted 15 Ent + 14 Rel
+2026-01-07 14:27:43,957 - lightrag - INFO - Chunk 9 of 17 extracted 14 Ent + 12 Rel
+2026-01-07 14:27:45,136 - lightrag - INFO - Chunk 10 of 17 extracted 15 Ent + 12 Rel
+2026-01-07 14:27:49,630 - lightrag - INFO - Chunk 11 of 17 extracted 17 Ent + 8 Rel
+2026-01-07 14:27:50,463 - lightrag - INFO - Chunk 12 of 17 extracted 11 Ent + 9 Rel
+2026-01-07 14:27:58,167 - lightrag - INFO - Chunk 13 of 17 extracted 18 Ent + 13 Rel
+2026-01-07 14:27:58,319 - lightrag - INFO - Chunk 14 of 17 extracted 15 Ent + 11 Rel
+2026-01-07 14:27:58,677 - lightrag - INFO - Chunk 15 of 17 extracted 8 Ent + 6 Rel
+2026-01-07 14:28:06,772 - lightrag - INFO - Chunk 16 of 17 extracted 12 Ent + 11 Rel
+2026-01-07 14:28:17,864 - lightrag - INFO - Chunk 17 of 17 extracted 22 Ent + 21 Rel
+2026-01-07 14:28:17,880 - lightrag - INFO - Merging stage 1/1: /Volumes/disk/Everything/100工作/130实习/coding/LightRAG/test_markdown/Primary Angle-Closure Disease PPP.md
+2026-01-07 14:28:17,881 - lightrag - INFO - Phase 1: Processing 202 entities from Primary Angle-Closure Disease PPP (async: 8)
+2026-01-07 14:28:17,882 - lightrag - INFO - Merge N: Care Process | 2+0
+2026-01-07 14:28:19,018 - lightrag - INFO - Merge N: Acute Angle-Closure Crisis | 3+0
+2026-01-07 14:28:19,018 - lightrag - INFO - LLM merge N: Plateau Iris Configuration | 5+0
+2026-01-07 14:28:19,160 - lightrag - INFO - LLM merge N: Plateau Iris Syndrome | 4+0
+2026-01-07 14:28:19,161 - lightrag - INFO - Merge N: Risk Factors for PACD | 3+0
+2026-01-07 14:28:19,161 - lightrag - INFO - Merge N: Pupillary Block | 3+0
+2026-01-07 14:28:19,293 - lightrag - INFO - Merge N: Laser Peripheral Iridotomy | 2+0
+2026-01-07 14:28:19,954 - lightrag - INFO - Merge N: Lens Extraction | 2+0
+2026-01-07 14:28:20,141 - lightrag - INFO - LLM merge N: Primary Angle-Closure Disease | 4+0
+2026-01-07 14:28:21,339 - lightrag - INFO - Merge N: Acute Angle-Closure Crisis (AACC) | 3+0
+2026-01-07 14:28:21,430 - lightrag - INFO - Merge N: Ultrasound Biomicroscopy (UBM) | 3+0
+2026-01-07 14:28:22,283 - lightrag - INFO - Merge N: Laser Iridotomy | 3+0
+2026-01-07 14:28:22,419 - lightrag - INFO - Merge N: Primary Angle-Closure Suspect | 2+0
+2026-01-07 14:28:22,784 - lightrag - INFO - Merge N: Primary Angle Closure and Primary Angle-Closure Glaucoma | 2+0
+2026-01-07 14:28:23,248 - lightrag - INFO - Merge N: Plateau Iris Configuration and Syndrome | 2+0
+2026-01-07 14:28:23,753 - lightrag - INFO - Merge N: Gonioscopy | 2+0
+2026-01-07 14:28:23,827 - lightrag - INFO - Merge N: Iridotomy | 2+0
+2026-01-07 14:28:24,005 - lightrag - INFO - Merge N: Incisional Iridectomy | 2+0
+2026-01-07 14:28:25,153 - lightrag - INFO - Merge N: PACG | 2+0
+2026-01-07 14:28:28,676 - lightrag - INFO - Merge N: Anterior Segment Imaging | 2+0
+2026-01-07 14:28:30,631 - lightrag - INFO - Merge N: Aqueous Misdirection | 2+0
+2026-01-07 14:28:31,465 - lightrag - INFO - Merge N: Lens Extraction for Angle Closure | 2+0
+2026-01-07 14:28:37,939 - lightrag - INFO - Merge N: Ophthalmologist | 2+0
+2026-01-07 14:28:43,929 - lightrag - INFO - Phase 2: Processing 205 relations from Primary Angle-Closure Disease PPP (async: 8)
+2026-01-07 14:28:56,924 - lightrag - INFO - Merge E: Acute Angle-Closure Crisis (AACC) - Primary Angle-Closure Disease | 2+0
+2026-01-07 14:29:05,038 - lightrag - INFO - Merge E: Gonioscopy - Plateau Iris Configuration | 2+0
+2026-01-07 14:30:24,179 - lightrag - INFO - Phase 3: Updating final 206(202+4) entities and  205 relations from Primary Angle-Closure Disease PPP
+2026-01-07 14:30:24,190 - lightrag - INFO - Completed merging: 202 entities, 4 added entities, 205 relations
+2026-01-07 14:30:24,222 - lightrag - INFO - [_] Writing graph with 206 nodes, 205 edges
+2026-01-07 14:30:24,242 - lightrag - INFO - In memory DB persist to disk
+2026-01-07 14:30:24,243 - lightrag - INFO - Completed processing file 1/1: /Volumes/disk/Everything/100工作/130实习/coding/LightRAG/test_markdown/Primary Angle-Closure Disease PPP.md
+2026-01-07 14:30:24,243 - lightrag - INFO - Enqueued document processing pipeline stoped
+2026-01-07 14:30:25,088 - lightrag - INFO - Naive query: 17 chunks (chunk_top_k: 20)
+2026-01-07 14:30:25,090 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-07 14:30:25,106 - lightrag - INFO - Final context: 17 chunks
+2026-01-07 14:30:33,942 - lightrag - INFO - Process 22280 building query context...
+2026-01-07 14:30:33,942 - lightrag - INFO - Query nodes: Left eye, Glaucoma, Vision loss, Intraocular pressure, Treatment options, top_k: 40, cosine: 0.2
+2026-01-07 14:30:35,334 - lightrag - INFO - Local query: 40 entites, 59 relations
+2026-01-07 14:30:35,345 - lightrag - INFO - Truncated KG query results: 40 entities, 59 relations
+2026-01-07 14:30:36,321 - lightrag - INFO - Selecting 13 from 13 entity-related chunks by vector similarity
+2026-01-07 14:30:36,321 - lightrag - INFO - Find no additional relations-related chunks from 59 relations
+2026-01-07 14:30:36,322 - lightrag - INFO - Round-robin merged total chunks from 13 to 13
+2026-01-07 14:30:36,327 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-07 14:30:36,338 - lightrag - INFO - Final context: 40 entities, 59 relations, 13 chunks
+2026-01-07 14:30:36,338 - lightrag - INFO - chunks: E2/1 E6/2 E3/3 E3/4 E3/5 E3/6 E7/7 E3/8 E1/9 E3/10 E2/11 E2/12 E11/13
+2026-01-07 14:30:41,312 - lightrag - INFO - Successfully finalized 10 storages

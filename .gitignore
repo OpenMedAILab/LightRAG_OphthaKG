@@ -1,0 +1,7 @@
+examples/project/markdowns/*
+!examples/project/markdowns/.gitkeep
+examples/project/OphthaKG/*
+!examples/project/OphthaKG/.gitkeep
+__pycache__/
+.DS_Store
+*.pyc

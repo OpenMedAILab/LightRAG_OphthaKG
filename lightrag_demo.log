@@ -1,0 +1,43 @@
+2026-01-07 10:59:18,045 - lightrag - INFO - [_] Loaded graph from ./OphthaKG/graph_chunk_entity_relation.graphml with 189 nodes, 189 edges
+2026-01-07 10:59:18,057 - lightrag - WARNING - Rerank is enabled but no rerank_model_func provided. Reranking will be skipped.
+2026-01-07 10:59:18,057 - lightrag - INFO - [_] Process 2026243 KV load full_docs with 1 records
+2026-01-07 10:59:18,058 - lightrag - INFO - [_] Process 2026243 KV load text_chunks with 17 records
+2026-01-07 10:59:18,058 - lightrag - INFO - [_] Process 2026243 KV load full_entities with 1 records
+2026-01-07 10:59:18,058 - lightrag - INFO - [_] Process 2026243 KV load full_relations with 1 records
+2026-01-07 10:59:18,059 - lightrag - INFO - [_] Process 2026243 KV load llm_response_cache with 0 records
+2026-01-07 10:59:18,059 - lightrag - INFO - [_] Process 2026243 doc status load doc_status with 1 records
+2026-01-07 10:59:18,059 - lightrag - INFO - limit_async: 8 new workers initialized
+2026-01-07 10:59:20,144 - lightrag - WARNING - Ignoring document ID (already exists): Primary Angle-Closure Disease PPP (test_markdown/Primary Angle-Closure Disease PPP.md)
+2026-01-07 10:59:20,144 - lightrag - WARNING - No new unique documents were found.
+2026-01-07 10:59:20,145 - lightrag - INFO - No documents to process
+2026-01-07 10:59:21,726 - lightrag - INFO - Naive query: 17 chunks (chunk_top_k: 20)
+2026-01-07 10:59:21,731 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-07 10:59:21,742 - lightrag - INFO - Final context: 17 chunks
+2026-01-07 10:59:21,743 - lightrag - INFO - Successfully finalized 10 storages
+2026-01-07 11:00:54,707 - lightrag - INFO - [_] Loaded graph from ./OphthaKG/graph_chunk_entity_relation.graphml with 189 nodes, 189 edges
+2026-01-07 11:00:54,719 - lightrag - WARNING - Rerank is enabled but no rerank_model_func provided. Reranking will be skipped.
+2026-01-07 11:00:54,719 - lightrag - INFO - [_] Process 2030817 KV load full_docs with 1 records
+2026-01-07 11:00:54,720 - lightrag - INFO - [_] Process 2030817 KV load text_chunks with 17 records
+2026-01-07 11:00:54,720 - lightrag - INFO - [_] Process 2030817 KV load full_entities with 1 records
+2026-01-07 11:00:54,720 - lightrag - INFO - [_] Process 2030817 KV load full_relations with 1 records
+2026-01-07 11:00:54,720 - lightrag - INFO - [_] Process 2030817 KV load llm_response_cache with 0 records
+2026-01-07 11:00:54,720 - lightrag - INFO - [_] Process 2030817 doc status load doc_status with 1 records
+2026-01-07 11:00:54,720 - lightrag - INFO - limit_async: 8 new workers initialized
+2026-01-07 11:00:56,483 - lightrag - WARNING - Ignoring document ID (already exists): Primary Angle-Closure Disease PPP (test_markdown/Primary Angle-Closure Disease PPP.md)
+2026-01-07 11:00:56,483 - lightrag - WARNING - No new unique documents were found.
+2026-01-07 11:00:56,483 - lightrag - INFO - No documents to process
+2026-01-07 11:00:58,400 - lightrag - INFO - Naive query: 17 chunks (chunk_top_k: 20)
+2026-01-07 11:00:58,403 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-07 11:00:58,414 - lightrag - INFO - Final context: 17 chunks
+2026-01-07 11:00:58,432 - lightrag - INFO - limit_async: 4 new workers initialized
+2026-01-07 11:01:07,404 - lightrag - INFO - Process 2030817 building query context...
+2026-01-07 11:01:07,404 - lightrag - INFO - Query nodes: Left eye, Glaucoma, Ocular pressure, Vision loss, Treatment options, top_k: 40, cosine: 0.2
+2026-01-07 11:01:08,845 - lightrag - INFO - Local query: 40 entites, 58 relations
+2026-01-07 11:01:08,851 - lightrag - INFO - Truncated KG query results: 40 entities, 58 relations
+2026-01-07 11:01:10,578 - lightrag - INFO - Selecting 14 from 14 entity-related chunks by vector similarity
+2026-01-07 11:01:10,578 - lightrag - INFO - Find no additional relations-related chunks from 58 relations
+2026-01-07 11:01:10,579 - lightrag - INFO - Round-robin merged total chunks from 14 to 14
+2026-01-07 11:01:10,582 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-07 11:01:10,590 - lightrag - INFO - Final context: 40 entities, 58 relations, 14 chunks
+2026-01-07 11:01:10,590 - lightrag - INFO - chunks: E3/1 E5/2 E3/3 E4/4 E2/5 E3/6 E3/7 E4/8 E1/9 E7/10 E7/11 E1/12 E4/13 E5/14
+2026-01-07 11:01:17,571 - lightrag - INFO - Successfully finalized 10 storages
