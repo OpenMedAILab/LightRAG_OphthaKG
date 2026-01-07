@@ -1,7 +1,13 @@
+# 忽略所有数据文件
 examples/project/markdowns/*
-!examples/project/markdowns/.gitkeep
 examples/project/OphthaKG/*
+
+# 但保留 .gitkeep 文件本身
+!examples/project/markdowns/.gitkeep
 !examples/project/OphthaKG/.gitkeep
+
+# 忽略其他杂质
 __pycache__/
 .DS_Store
 *.pyc
+api_keys.py
