@@ -42,8 +42,11 @@ CLOSEAI_API_KEY = "你的_API_KEY_在此"
 运行核心构建脚本，程序将自动扫描文档并生成知识图谱：
 
 ```bash
-python examples/project/openai_construct_medical_guide_db_from_md.py
-
+# 添加项目根目录到 pythonpath
+export PYTHONPATH=/root/LightRAG:$PYTHONPATH
+python openai_construct_medical_guide_db_from_md.py
+# 或者后台运行
+nohup python openai_construct_medical_guide_db_from_md &
 ```
 
 ---
