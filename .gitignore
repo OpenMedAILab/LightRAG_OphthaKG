@@ -1,12 +1,4 @@
-# 忽略数据文件夹下的所有内容
-examples/project/markdowns/*
-examples/project/OphthaKG/*
-
-# 唯独不忽略 .gitkeep 文件
-!examples/project/markdowns/.gitkeep
-!examples/project/OphthaKG/.gitkeep
-
-# 其他忽略项
+# 忽略项
 __pycache__/
 .DS_Store
 *.pyc
